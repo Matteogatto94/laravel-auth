@@ -25,7 +25,7 @@
                 <td>{{$project->title}}</td>
                 <td>{{$project->slug}}</td>
                 <td>
-                    <i class="fas fa-eye fa-sm fa-fw"></i>
+                    <a class="btn btn-primary btn-sm" href="{{route('admin.projects.show', $project->slug)}}"><i class="fas fa-eye fa-sm fa-fw"></i></a>
                     <i class="fas fa-pencil fa-sm fa-fw"></i>
                     <i class="fas fa-trash fa-sm fa-fw"></i>
                 </td>
