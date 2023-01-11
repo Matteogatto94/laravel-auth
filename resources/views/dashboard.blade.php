@@ -17,6 +17,7 @@
                     {{ __('You are logged in!') }}
                 </div>
             </div>
+            <a class="btn btn-primary mt-3" href="{{route('admin.projects.create')}}" role="button">Create a New Project</a>
         </div>
     </div>
 </div>
